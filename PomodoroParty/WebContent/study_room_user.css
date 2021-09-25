@@ -1,0 +1,306 @@
+body {
+  background-image: url('study_room_user_background.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f1bf6a;
+  /*position: relative;*/
+}
+
+.container {
+  position: relative;
+}
+
+.navbar-brand {
+  font-family: 'Vast Shadow', cursive !important;
+  color: #db7f67 !important;
+  font-size: 35px !important;
+}
+
+.navbar-items {
+  color: #1a535c !important;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+.navbar {
+  color: #1a535c !important;
+}
+
+.nav-link{
+    color: #1a535c !important;
+}
+
+#timer-col{
+  border-radius: 25px;
+  margin-top: 1%;
+}
+
+#timer-p {
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	color: #1a535c !important;
+	margin: 0;
+	padding: 0;
+}
+
+p, #timer-p {
+	margin: 0;
+	padding: 0;}
+
+p, #timer-text {
+	margin: 0;
+	padding: 0;
+	}
+
+#timer-text {
+	font-family: 'Josefin Slab', serif;
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-outer {
+  height: 160px;
+  /*width: 100%;*/
+  background-color: #db7f67;
+  border-radius: 56%;
+  display: inline-block;
+  position: relative;
+  transition: transform 250ms;
+}
+
+.dot-outer:hover {
+  transform: translateY(-10px);
+}
+
+#left-dot {
+  margin-right: 1%;
+  margin-left: 2%;
+}
+
+#right-dot {
+  margin-left: 1%;
+  margin-right: 2%;
+}
+
+.dot-row{
+  margin-top: 30px;
+}
+
+.dot-info {
+  font-family: 'Josefin Slab', serif;
+  font-size: 65px;
+  color: #dcedb9;
+  margin-bottom: -20px;
+  margin-top: 11%;
+}
+
+.units {
+  font-size: 25px !important;
+  color: #1a535c !important;
+  margin-top: 0;
+}
+
+.outline-boxes {
+  height: 210px;
+  /*width: 340px;*/
+  border: 3px solid #dcedb9;
+  border-radius: 20px;
+}
+
+#rankings {
+  height: 150px;
+  border: 3px solid #dcedb9;
+  background-color: #dcedb9;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 3px solid #dcedb9;
+  border-radius: 0.6em;
+  color: #1a535c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7em 0.5em;
+  text-decoration: none;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #1a535c;
+  outline: 0;
+}
+
+.fourth {
+  border-color: #dcedb9;
+  font-family: 'Josefin Slab', serif;
+  font-size: 25px;
+  color: #1a535c;
+  background-image: -webkit-linear-gradient(45deg, #dcedb9 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #dcedb9 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+#skip-btn {
+  margin-top: 28%;
+}
+
+#rankings-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: #1a535c;
+  margin-bottom: 0;
+}
+
+#now-playing {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: #1a535c;
+  margin-bottom: 0;
+}
+
+#rankings-hr {
+  height: 3px;
+  margin-top: 0;
+  background: #1a535c;
+}
+
+#song-hr {
+  height: 3px;
+  margin-top: 0;
+  background: #1a535c;
+}
+/*
+hr {
+  height: 3px;
+  margin-top: 0;
+  background: #1a535c;
+}*/
+
+.rankings-user{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: #db7f67;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.rankings-score {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  color: #db7f67;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+#user-col {
+  float: left;
+}
+
+#score-col { 
+  float: right;
+}
+
+.days {
+  font-family: 'Josefin Slab', serif;
+  color: #db7f67;
+  font-size: 18px;
+}
+
+#song-title {
+  font-family: 'Josefin Slab', serif;
+  font-size: 28px;
+  color: #db7f67;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+#artist {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  color: #db7f67;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.joined-user {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  color: #1a535c;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.joined-hr{
+  /*height: 1.2px;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*background: #1a535c;*/
+  border-top:1.2px dashed #1a535c;
+}
+
+#top-joined-hr {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  /*background: #1a535c;
+  height: 1.2px;*/
+  border-top:1.2px dashed #1a535c;
+}
+
+#bottom-joined-hr {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  /*background: #1a535c;
+  height: 1.2px;*/
+  border-top:1.2px dashed #1a535c;
+}
+
+#outline-box-left {
+  overflow: scroll;
+}
+
+#muteButton {
+	height: 28px;
+	width: 28px;
+}
+
+
+
+
+
+
+
