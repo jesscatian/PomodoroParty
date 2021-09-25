@@ -1,0 +1,154 @@
+body {
+  background-image: url('user_profile_page_background.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #dcedb9;
+  /*position: relative;*/
+}
+
+.container {
+  position: relative;
+}
+
+.navbar-brand {
+  font-family: 'Vast Shadow', cursive !important;
+  color: #db7f67 !important;
+  font-size: 35px !important;
+}
+
+.navbar-items {
+  color: #1a535c !important;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+.navbar {
+  color: #1a535c !important;
+}
+
+.nav-link{
+    color: #1a535c !important;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-outer {
+  height: 380px;
+  /*width: 380px;*/
+  background-color: #db7f67;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  transition: transform 250ms;
+}
+
+.dot-outer:hover {
+  transform: translateY(-10px);
+}
+
+.dot-inner {
+  height: 320px;
+  background-color: #b1c1c0;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+.outer-col {
+  background-color: #f1bf6a;
+  height: 300px;
+  width: 50%;
+  border-radius: 20%;
+  box-sizing: border-box;
+  position: relative; 
+}
+
+.inner-col {
+  background-color: #b1c1c0;
+  margin: 0 auto;
+  /*display: inline-block;*/
+  height: 270px;
+  width: 90%;
+  padding: 3px;
+  border-radius: 20%;
+  box-sizing: border-box;
+  position: absolute; 
+}
+
+#left-dot {
+  margin-right: 5%;
+}
+
+#right-dot {
+  margin-left: 5%;
+}
+
+.dot-row{
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.hello-user{
+  font-family: 'Amatic SC', cursive;
+  font-size: 116px;
+  color: #1a535c;
+}
+
+#nickname {
+  font-family: 'Amatic SC', cursive;
+  font-size: 136px;
+  color: #f1bf6a;
+}
+
+.dot-title {
+  font-family: 'Josefin Slab', serif;
+  font-size: 45px;
+  color: #1a535c !important;
+  padding-top: 20%;
+  margin-bottom: -15px;
+}
+
+.dot-info {
+  font-family: 'Josefin Slab', serif;
+  font-size: 76px;
+  color: white !important;
+  margin-bottom: -20px;
+}
+
+.units {
+  font-size: 50px !important;
+  margin-top: 0;
+}
+
+
+@media (max-width: 990px) {
+  #left-dot {
+    margin-right: 0;
+  }
+  #right-dot{
+    margin-left: 0;
+    margin-top: 3%;
+  }
+  .dot-title {
+  	font-size: 30px;
+  }
+  .dot-info{
+    font-size: 52px;
+  }
+  .units{
+    font-size: 30px !important;
+  }
+}
+
+
+
+
+
+
+
+
